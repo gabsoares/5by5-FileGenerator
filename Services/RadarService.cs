@@ -179,7 +179,7 @@ namespace Services
         public int Menu()
         {
             Console.Clear();
-            Console.WriteLine("<<<<<<<<<<FUTEBOL>>>>>>>>>>");
+            Console.WriteLine("<<<<<<<<<<PEGAR DADOS VIA SQL/MONGO>>>>>>>>>>");
             Console.WriteLine("[ 1 ]  Pegar dados via SQL");
             Console.WriteLine("[ 2 ]  Pegar dados via Mongo");
             Console.WriteLine("[ 0 ]  Sair do programa");
@@ -192,7 +192,7 @@ namespace Services
         public int MenuSQL()
         {
             Console.Clear();
-            Console.WriteLine("<<<<<<<<<<FUTEBOL>>>>>>>>>>");
+            Console.WriteLine("<<<<<<<<<<GERAR ARQUIVO VIA SQL>>>>>>>>>>");
             Console.WriteLine("[ 1 ]  Gerar arquivo Json via SQL");
             Console.WriteLine("[ 2 ]  Gerar arquivo XML via SQL");
             Console.WriteLine("[ 3 ]  Gerar arquivo CSV via SQL");
@@ -206,7 +206,7 @@ namespace Services
         public int MenuMongo()
         {
             Console.Clear();
-            Console.WriteLine("<<<<<<<<<<FUTEBOL>>>>>>>>>>");
+            Console.WriteLine("<<<<<<<<<<GERAR ARQUIVO VIA MONGO>>>>>>>>>>");
             Console.WriteLine("[ 1 ]  Gerar arquivo Json via Mongo");
             Console.WriteLine("[ 2 ]  Gerar arquivo XML via Mongo");
             Console.WriteLine("[ 3 ]  Gerar arquivo CSV via Mongo");
